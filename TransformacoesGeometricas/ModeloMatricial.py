@@ -56,7 +56,7 @@ class ModeloMatricial:
 
 
 # M = ModeloMatricial()
-# M.leModelo("MatrizExemplo0.txt")
+# M.leModelo("Nave.txt")
 
 # M.Imprime()
 # print ("----")
