@@ -9,6 +9,9 @@ from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
 from Ponto import *
+import time
+import random
+
 
 #import numpy as np
 
@@ -17,6 +20,9 @@ from Ponto import *
 class Instancia:   
     def __init__(self):
         
+        self.movimento = time.time() + random.uniform( 1, 3)
+        self.tiro = time.time() + random.uniform(1, 5)
+
         self.Posicao = Ponto (0,0,0) 
         self.Escala = Ponto (1,1,1)
         self.Rotacao:float = 0.0
